@@ -1,6 +1,7 @@
 PostgreSQL container images
 ========================
-
+https://catalog.redhat.com/software/containers/rhel8/postgresql-12/5db133bd5a13461646df330b
+https://catalog.redhat.com/software/containers/rhel8/postgresql-12/5db133bd5a13461646df330b?container-tabs=gti
 PostgreSQL 10 status:[![Docker Repository on Quay](https://quay.io/repository/centos7/postgresql-10-centos7/status "Docker Repository on Quay")](https://quay.io/repository/centos7/postgresql-10-centos7), PostgreSQL 12 status:[![Docker Repository on Quay](https://quay.io/repository/centos7/postgresql-12-centos7/status "Docker Repository on Quay")](https://quay.io/repository/centos7/postgresql-12-centos7)
 
 This repository contains Dockerfiles for PostgreSQL images for OpenShift.
