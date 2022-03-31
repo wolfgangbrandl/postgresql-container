@@ -2,6 +2,9 @@ PostgreSQL container images
 ========================
 https://catalog.redhat.com/software/containers/rhel8/postgresql-12/5db133bd5a13461646df330b
 https://catalog.redhat.com/software/containers/rhel8/postgresql-12/5db133bd5a13461646df330b?container-tabs=gti
+  949  oc delete all --all
+  950  oc new-app postgresql:12~https://github.com/wolfgangbrandl/postgresql-container.git   --name new-postgresql   --context-dir brz/extending-image/   -e POSTGRESQL_USER=user   -e POSTGRESQL_DATABASE=db   -e POSTGRESQL_PASSWORD=password
+
 PostgreSQL 10 status:[![Docker Repository on Quay](https://quay.io/repository/centos7/postgresql-10-centos7/status "Docker Repository on Quay")](https://quay.io/repository/centos7/postgresql-10-centos7), PostgreSQL 12 status:[![Docker Repository on Quay](https://quay.io/repository/centos7/postgresql-12-centos7/status "Docker Repository on Quay")](https://quay.io/repository/centos7/postgresql-12-centos7)
 
 This repository contains Dockerfiles for PostgreSQL images for OpenShift.
